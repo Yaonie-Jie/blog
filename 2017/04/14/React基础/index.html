@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="React基础什么是ReactReact是一个用于构建用户界面的javascript库，React起源于Facebook的内部项目，用来架设Instagram的网站，并于2013年5月开源。React拥有较高的性能，代码逻辑非常简单。
+React的特点虚拟DOM结构减少DOM元素，在编码过程中尽量减">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="zhangyujie">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="React基础"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="学习是一种信仰。"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+        <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>React基础 - 学习是一种信仰。</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+	
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                首页
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/">
+                            
+                                列表
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>React基础</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        2017-04-14
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 id="React基础"><a href="#React基础" class="headerlink" title="React基础"></a>React基础</h1><h2 id="什么是React"><a href="#什么是React" class="headerlink" title="什么是React"></a>什么是React</h2><p>React是一个用于构建用户界面的javascript库，React起源于Facebook的内部项目，用来架设Instagram的网站，并于2013年5月开源。React拥有较高的性能，代码逻辑非常简单。</p>
+<h2 id="React的特点"><a href="#React的特点" class="headerlink" title="React的特点"></a>React的特点</h2><h4 id="虚拟DOM结构"><a href="#虚拟DOM结构" class="headerlink" title="虚拟DOM结构"></a>虚拟DOM结构</h4><p>减少DOM元素，在编码过程中尽量减少DOM的操作可以优化性能。React通过内部的diff算法可以算出当前版本和历史版本的差异，可以最小化重绘，减少DOM的操作，在页面中只重绘更新部分，从而可以提高渲染速度。</p>
+<h4 id="组件化"><a href="#组件化" class="headerlink" title="组件化"></a>组件化</h4><p>在业务开发中，遇到公共的模板部分，我们不得不将模板和规定的数据格式耦合在一起来实现组件。而在React中，我们可以使用JSX语法来封装组件，将组件的结构、数据逻辑甚至样式都聚合在一起，更加简单、明了、直观的定义组件。<br>有了组件化的实现，我们可以很直观的将一个复杂的页面分割成若干个独立组件，再将这些独立组件组合完成一个复杂的页面。这样既减少了逻辑复杂度，又实现了代码的重用。</p>
+<h2 id="配置开发环境"><a href="#配置开发环境" class="headerlink" title="配置开发环境"></a>配置开发环境</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">        <span class="comment">&lt;!--引入react核心库--&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"build/react.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">        <span class="comment">&lt;!--引入react的DOM操作--&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"build/react-dom.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">        <span class="comment">&lt;!--把JSX语法转换成浏览器能识别的JavaScript--&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"build/browser.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">        <span class="comment">&lt;!--把通过react生成的DOM放置在#container里面--&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"container"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--写JSX的地方需要设置为text/babel--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/babel"</span>&gt;</span><span class="undefined"></span></div><div class="line">        // 在这里写react代码</div><div class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="React的css样式"><a href="#React的css样式" class="headerlink" title="React的css样式"></a>React的css样式</h2><p>1.内联样式<br><figure class="highlight jsx"><figcaption><span>harmony</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> StyleTest = React.createClass(&#123;</div><div class="line">    <span class="attr">render</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#123;&#123;backgroundColor:</span> "<span class="attr">red</span>", <span class="attr">border:</span> "<span class="attr">10px</span> <span class="attr">solid</span> #<span class="attr">ccc</span>"&#125;&#125;&gt;</span>Test<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></div><div class="line">    &#125;</div><div class="line">&#125;);</div><div class="line">ReactDOM.render(</div><div class="line">    <span class="xml"><span class="tag">&lt;<span class="name">StyleTest</span>/&gt;</span></span>,</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">"container"</span>)</div><div class="line">)</div></pre></td></tr></table></figure></p>
+<p>2.对象样式<br><figure class="highlight jsx"><figcaption><span>harmony</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> styles = &#123;</div><div class="line">    <span class="attr">color</span>: <span class="string">"blue"</span>,</div><div class="line">    <span class="attr">backgroundColor</span>: <span class="string">"green"</span></div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> StyleTest = React.createClass(&#123;</div><div class="line">    <span class="attr">render</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#123;styles&#125;</span>&gt;</span>Test<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></div><div class="line">    &#125;</div><div class="line">&#125;);</div><div class="line">ReactDOM.render(</div><div class="line">    <span class="xml"><span class="tag">&lt;<span class="name">StyleTest</span>/&gt;</span></span>,</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">"container"</span>)</div><div class="line">)</div></pre></td></tr></table></figure></p>
+<p>3.选择器样式<br><figure class="highlight"><figcaption><span>harmony</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&lt;style&gt;</div><div class="line">    .styles&#123;</div><div class="line">        color: yellow;</div><div class="line">        background-color: black;</div><div class="line">    &#125;</div><div class="line">&lt;/style&gt;</div><div class="line">var StyleTest = React.createClass(&#123;</div><div class="line">    render: function () &#123;</div><div class="line">        return &lt;div className="styles"&gt;Test&lt;/div&gt;</div><div class="line">    &#125;</div><div class="line">&#125;);</div><div class="line">ReactDOM.render(</div><div class="line">        &lt;StyleTest/&gt;,</div><div class="line">    document.getElementById("container")</div><div class="line">)</div></pre></td></tr></table></figure></p>
+<h3 id="React的属性props"><a href="#React的属性props" class="headerlink" title="React的属性props"></a>React的属性props</h3><p>props简单来说就是一个组件的私有属性，从父组件传递一些需要的值到子组件中来使用<br>使用方法为this.props，这里的this便代表它的父组件，props则代表了父组件上的所有元素，是一个数组。<br><figure class="highlight jsx"><figcaption><span>harmony</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> PropsTest = React.createClass(&#123;</div><div class="line">    <span class="attr">render</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>hello &#123;this.props.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></div><div class="line">    &#125;</div><div class="line">&#125;);</div><div class="line">ReactDOM.render(</div><div class="line">    <span class="xml"><span class="tag">&lt;<span class="name">PropsTest</span> <span class="attr">name</span>=<span class="string">"zhangsan"</span>/&gt;</span>,  // 这里的name值会传递到h1的标签中相应的位置</span></div><div class="line">    document.getElementById("container")</div><div class="line">)</div></pre></td></tr></table></figure></p>
+<h3 id="内部状态state"><a href="#内部状态state" class="headerlink" title="内部状态state"></a>内部状态state</h3><p>React把组件看成是一个状态机（State Machines）。通过与用户的交互，实现不同状态，然后渲染UI，让用户界面和数据保持一致。<br>React里，只需更新组件的state，然后根据新的state重新渲染用户界面（不要操作DOM）。<br>getInitialState方法用于定义初始状态，也就是一个对象，这个对象可以通过this.state属性读取。当用户点击组件，导致状态变化，this.setState方法就修改状态值，每次修改以后，自动调用this.render方法，再次渲染组件。</p>
+<figure class="highlight jsx"><figcaption><span>harmony</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> LikeButton = React.createClass(&#123;</div><div class="line">    <span class="attr">getInitialState</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">return</span> &#123;<span class="attr">liked</span>: <span class="literal">false</span>&#125;;</div><div class="line">    &#125;,</div><div class="line">    <span class="attr">handleClick</span>: <span class="function"><span class="keyword">function</span>(<span class="params">event</span>) </span>&#123;</div><div class="line">        <span class="keyword">this</span>.setState(&#123;<span class="attr">liked</span>: !<span class="keyword">this</span>.state.liked&#125;);</div><div class="line">    &#125;,</div><div class="line">    <span class="attr">render</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">var</span> text = <span class="keyword">this</span>.state.liked ? <span class="string">'喜欢'</span> : <span class="string">'不喜欢'</span>;</div><div class="line">        <span class="keyword">return</span> (</div><div class="line">            <span class="xml"><span class="tag">&lt;<span class="name">p</span> <span class="attr">onClick</span>=<span class="string">&#123;this.handleClick&#125;</span>&gt;</span></span></div><div class="line">                你<span class="tag">&lt;<span class="name">b</span>&gt;</span>&#123;text&#125;<span class="tag">&lt;/<span class="name">b</span>&gt;</span>我。点击切换状态。</div><div class="line">            <span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">        );</div><div class="line">    &#125;</div><div class="line">&#125;);</div><div class="line">ReactDOM.render(</div><div class="line">    <span class="xml"><span class="tag">&lt;<span class="name">LikeButton</span> /&gt;</span>,</span></div><div class="line">    document.getElementById("container")</div><div class="line">);</div></pre></td></tr></table></figure>
+<h2 id="React生命周期"><a href="#React生命周期" class="headerlink" title="React生命周期"></a>React生命周期</h2><p>1.实例化阶段</p>
+<h5 id="首次实例化"><a href="#首次实例化" class="headerlink" title="首次实例化"></a>首次实例化</h5><ul>
+<li>getDefaultProps<br><em>设置默认的props，也可以用dufaultProps设置组件的默认属性。</em></li>
+<li>getInitialState<br><em>在使用es6的class语法时是没有这个钩子函数的，可以直接在constructor中定义this.state。此时可以访问this.props。</em></li>
+<li>componentWillMount<br><em>组件初始化时只调用，以后组件更新不调用，整个生命周期只调用一次，此时可以修改state。</em></li>
+<li>render<br><em>react最重要的步骤，创建虚拟dom，进行diff算法，更新dom树都在此进行。此时就不能更改state了。</em></li>
+<li>componentDidMount<br><em>组件渲染之后调用，可以通过this.getDOMNode()获取和操作dom节点，只调用一次，可以设置定时器，ajax。</em><h5 id="实例化完成之后更新"><a href="#实例化完成之后更新" class="headerlink" title="实例化完成之后更新"></a>实例化完成之后更新</h5></li>
+<li><p>getInitialState</p>
+</li>
+<li><p>componentWillMount</p>
+</li>
+<li>render</li>
+<li>componentDidMount</li>
+</ul>
+<p>2.存在期</p>
+<h5 id="组件存在时的状态改变"><a href="#组件存在时的状态改变" class="headerlink" title="组件存在时的状态改变"></a>组件存在时的状态改变</h5><ul>
+<li>componentWillReceiveProps</li>
+<li>shouldComponentUpdate<br><em>react性能优化非常重要的一环。组件接受新的state或者props时调用，我们可以设置在此对比前后两个props和state是否相同，如果相同则返回false阻止更新，因为相同的属性状态一定会生成相同的dom树，这样就不需要创造新的dom树和旧的dom树进行diff算法对比，节省大量性能，尤其是在dom结构复杂的时候.</em></li>
+<li>componentWillUpdate<br><em>组件初始化时不调用，只有在组件将要更新时才调用，此时可以修改state</em></li>
+<li>render</li>
+<li><em>组件初始化时不调用，组件更新完成后调用，此时可以获取dom节点。</em></li>
+</ul>
+<p>3.销毁期</p>
+<ul>
+<li>componentWillUnmount<br><em>组件将要卸载时调用，可以清除一些事件监听和定时器。
+</em></li>
+</ul>
+<h2 id="Redux"><a href="#Redux" class="headerlink" title="Redux"></a>Redux</h2><h5 id="redux主要由三部分组成：store，reducer，action。"><a href="#redux主要由三部分组成：store，reducer，action。" class="headerlink" title="redux主要由三部分组成：store，reducer，action。"></a>redux主要由三部分组成：store，reducer，action。</h5><p>1.store是一个对象，它有四个主要的方法：</p>
+<ul>
+<li>dispatch:<br><em>用于action的分发——在createStore中可以用middleware中间件对dispatch进行改造，比如当action传入dispatch会立即触发reducer，有些时候我们不希望它立即触发，而是等待异步操作完成之后再触发，这时候用redux-thunk对dispatch进行改造，以前只能传入一个对象，改造完成后可以传入一个函数，在这个函数里我们手动dispatch一个action对象，这个过程是可控的，就实现了异步</em></li>
+<li>subscribe:<br><em>监听state的变化——这个函数在store调用dispatch时会注册一个listener监听state变化，当我们需要知道state是否变化时可以调用，它返回一个函数，调用这个返回的函数可以注销监听。 let unsubscribe = store.subscribe(() =&gt; {console.log(‘state发生了变化’)})</em></li>
+<li>getState:<br><em>获取store中的state——当我们用action触发reducer改变了state时，需要再拿到新的state里的数据，毕竟数据才是我们想要的。getState主要在两个地方需要用到，一是在dispatch拿到action后store需要用它来获取state里的数据，并把这个数据传给reducer，这个过程是自动执行的，二是在我们利用subscribe监听到state发生变化后调用它来获取新的state数据，如果做到这一步，说明我们已经成功了。</em></li>
+<li>replaceReducer<br><em>替换reducer，改变state修改的逻辑。</em><br>store可以通过createStore()方法创建，接受三个参数，经过combineReducers合并的reducer和state的初始状态以及改变dispatch的中间件，后两个参数并不是必须的。store的主要作用是将action和reducer联系起来并改变state。</li>
+</ul>
+<p>2.action</p>
+<p>action是一个对象，其中type属性是必须的，同时可以传入一些数据。action可以用actionCreactor进行创造。dispatch就是把action对象发送出去。</p>
+<p>3.reducer:</p>
+<p>reducer是一个函数，它接受一个state和一个action，根据action的type返回一个新的state。根据业务逻辑可以分为很多个reducer，然后通过combineReducers将它们合并，state树中有很多对象，每个state对象对应一个reducer，state对象的名字可以在合并时定义。</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p class="copyright text-muted">&copy; 2017 zhangyujie<br></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
